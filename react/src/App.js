@@ -74,7 +74,7 @@ function App() {
         <button onClick={() => handleDigit('0')}>0</button>
         <button onClick={handleEqual}>=</button>
         <button onClick={() => handleOperator('+')}>+</button>
-        <button onClick={handleClear}>C</button>
+        <button onClick={handleClear}>Очистить</button>
       </div>
     </div>
   );
